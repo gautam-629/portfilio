@@ -73,7 +73,7 @@ export const projects: IProject[] = [
       name: "Ecommerce",
       description:
         "This app is used to show and purchase a goods through the Online",
-      image_path: "/images/ecommerce.png",
+      image_path: "/img/ecommerce.png",
       deployed_url: "#",
       github_url: "https://github.com/gautam-629/MERN-Ecommerce.git",
       category: ["all"],
@@ -83,7 +83,7 @@ export const projects: IProject[] = [
         name: "Food Ordering",
         description:
           "This app is used to show and purchase a Foods through the Online",
-        image_path: "/images/food.png",
+        image_path: "/img/food.png",
         deployed_url: "#",
         github_url: "https://github.com/gautam-629/khaja-ghar-php.git",
         category: ["all"],

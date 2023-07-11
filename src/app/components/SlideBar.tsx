@@ -17,7 +17,8 @@ const SlideBar = () => {
             <span className='text-green-500'>Binod</span> Gautam
         </h1>
         <div>
-            <button className='text-text_color bg-blue rounded-md px-2 mt-4'>Download Resume
+          <Link href="/pdfs/example.pdf" target='_blank' download={"example.pdf"} >
+          <button className='text-text_color bg-blue rounded-md px-2 mt-4'>Download Resume
             <Image
                   className='inline'
                   src={'/img/download.png'}
@@ -26,6 +27,8 @@ const SlideBar = () => {
                   alt='facebook'
                 />
             </button>
+          </Link>
+            
     
         </div>
         <div className='flex gap-6 mt-6 ml-20'>
@@ -37,7 +40,7 @@ const SlideBar = () => {
                   alt='facebook'
                 />
             </Link>
-            <Link href={"#"}>
+            <Link href={"https://github.com/gautam-629"} target="_blank">
                 <Image
                   className='bg-icon_color rounded-full'
                   src={'/img/GitHub.png'}
@@ -69,7 +72,8 @@ const SlideBar = () => {
               <p className='text-text_color'>9815835831</p>
         </div>
         <div className='gap-2 mt-7 mb-5 pb-10'>
-            <button  className='text-text_color bg-blue rounded-md px-2'> <span className='p-2'>Email Me</span>
+          <Link href="mailto:gautambinod629@gmail.com" target="_blank">
+          <button  className='text-text_color bg-blue rounded-md px-2'> <span className='p-2'>Email Me</span>
             <Image
                   className='rounded-full inline'
                   src={'/img/email.png'}
@@ -78,6 +82,8 @@ const SlideBar = () => {
                   alt='linkdin'
                 />
             </button>
+          </Link>
+            
         </div>
     </div>
     </>
