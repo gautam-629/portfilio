@@ -21,4 +21,4 @@ export interface IProject {
     category: Category[];
     key_techs: string[];
   }
-  export type Category = |"React" | "MERN"| "Php"| "Java" | "Next Js" | "React Native";
+  export type Category = "all" |"React" | "React Native";

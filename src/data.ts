@@ -76,29 +76,9 @@ export const projects: IProject[] = [
       image_path: "/images/ecommerce.png",
       deployed_url: "#",
       github_url: "https://github.com/gautam-629/MERN-Ecommerce.git",
-      category: ["MERN"],
+      category: ["all"],
       key_techs: ["React", "Node", "Express","Mongodb"],
     },
-    { 
-        name: "Tic tac toe",
-        description:
-          "Tic Tac Toe is a simple and fun game that often serves as a great introduction to basic game theory and strategic thinking.",
-        image_path: "/images/tictak.PNG",
-        deployed_url: "#",
-        github_url: "https://github.com/gautam-629/React-Native-Tick-Tac-Toe.git",
-        category: ["React Native"],
-        key_techs: ["React Native"],
-      },
-      { 
-        name: "Currency Conveter",
-        description:
-          "This app is used to convert the  curreny to the Nepali Currency",
-        image_path: "/images/currency.PNG",
-        deployed_url: "#",
-        github_url: "https://github.com/gautam-629/React-Native-CurrencyConverter.git",
-        category: ["React Native"],
-        key_techs: ["React Native"],
-      },
       { 
         name: "Food Ordering",
         description:
@@ -106,7 +86,7 @@ export const projects: IProject[] = [
         image_path: "/images/food.png",
         deployed_url: "#",
         github_url: "https://github.com/gautam-629/khaja-ghar-php.git",
-        category: ["Php"],
+        category: ["all"],
         key_techs: ["php", "Jquery", "Mysql","javascript"],
       },
   ];

@@ -5,7 +5,7 @@ import { services } from '@/data'
 const page = () => {
   return (
     <>
-      <p className='text-text_color px-16 mb-3'>I am currently studying IT in the third year and I have 1+ experience in
+      <p className='text-text_color px-8 mb-3'>I am currently studying IT in the third year and I have 1+ experience in
         Web Development as well as mobile application development.</p>
       <div>
         <h1 className='text-text_color text-lg ml-5 font-bold border-b-4 border-blue inline'>What I am doing</h1>

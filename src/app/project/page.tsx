@@ -8,17 +8,19 @@ const Page = () => {
   const [projects,setProjects]=useState(projectsData);
   
 const  handlerFilterCategory=(category: Category | "all")=>{
+   console.log(category);
   if (category === "all") {
     setProjects(projectsData);
  
     return;
   }
+
     const newArray=projects.filter((project)=>
          project.category.includes(category)
     )
+    console.log(newArray);
     setProjects(newArray);
-   
-    return;
+  
 }
   return (
     <>
